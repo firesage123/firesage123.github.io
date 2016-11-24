@@ -36,7 +36,7 @@
   <div>
   	<div id="navbar-main">
       <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #c0c0c0">
       <div id="hi" class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -63,7 +63,18 @@
 	  		 		<!--<h1><span class="icon icon-shield"></span></h1>-->
 	  		 		<p>James He</p>
 	  		 		<p class="description">Computer Scientist &nbsp; &mdash; &nbsp; Web Developer &nbsp; &mdash; &nbsp; Innovator</p>
-	  		</header>	    
+            </header>
+            <div>
+                <ul class="AnimBut">
+                    <li><a href="assets/Resume_James_He.pdf" class="round green">Resume<span class="round">Click to Download!</span></a></li>
+                    <li></li>
+	                <li><a href="https://github.com/firesage123" class="round yellow">Github<span class="round">Github Portfolio. Take a look!</span></a></li>
+                    <li></li>
+	                <li><a href="https://www.linkedin.com/pub/james-he/a6/55b/829" class="round red">LinkedIn<span class="round">LinkedIn. <br> Check it out!</span></a></li>
+                    <li></li>
+	                <li><a href="https://www.facebook.com/james.he.9235" class="round blue" style="font-size:22px">Facebook<span class="round">View My Facebook!</span></a></li>
+                </ul> 
+            </div>
 	    </div><!-- /headerwrap -->
 		
 		<!-- ==== ABOUT ==== -->
@@ -281,7 +292,28 @@
                 
                 
                 
-                
+                <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Alertif</h4>
+						        </div>
+						        <div class="modal-body">
+						         <p><img class="img-responsive" src="assets/img/portfolio/AlertifPic.png" alt=""></p>
+                                  <p class="m">This is a Ruby on Rails web application aimed towards helping car owners keep track of potential problems with their vehicles (headlights left on, child accidently left in car, etc.).</p>
+                                    <p class="m">This app boasts a working account system with working mailer functionalities as well as account activation and password reset options. This app incorporates the Twilio API as well as some rudimentary SSL as a part of a Ruby gem. </p>
+                                  <p class="m">Please consult the following page link for more detailed information.</p>
+                                  <p><b><a href="http://www.alertif.me">Check out the website!</a></b></p>
+                                  <p><b><a href="http://github.com/firesage123/Alertif">Github Repo</a></b></p>
+						          <!--<p><b><a href="#">Visit Site</a></b></p>-->
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
                 
                 
                 
@@ -329,31 +361,25 @@
 				</div><!-- /col -->
 				
 				<!-- PORTFOLIO IMAGE 5 -->
-<!--				<div class="col-md-4">
-<!--			    	<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio05.jpg" alt="">
-							<figcaption>
-								<h5>TWITTER STATUS</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-<!--						</figure><!-- /figure -->
-<!--			    	</div><!-- /grid-mask -->
-<!--				</div><!-- /col -->
-				
-				<!-- PORTFOLIO IMAGE 6 -->
-<!--				<div class="col-md-4">
+				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio06.jpg" alt="">
+							<img class="img-responsive" src="assets/img/portfolio/AlertifPic.png" alt="">
 							<figcaption>
-								<h5>PHONE MOCKUP</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
+								<h5>Alertif</h5>
+								<a data-toggle="modal" href="#myModal5" class="btn btn-primary btn-lg">Take a Look</a>
 							</figcaption><!-- /figcaption -->
-<!--						</figure><!-- /figure -->
-<!--			    	</div><!-- /grid-mask -->
-<!--				</div><!-- /col -->
-<!--			</div><!-- /row -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+				<!-- PORTFOLIO IMAGE 6 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+                        <p class="viewmore"><a href="https://github.com/firesage123"><b>View More Projects >></b></a></p>
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+			</div><!-- /row -->
 			<br>
 			<br>
 		</div><!-- /row -->
@@ -371,10 +397,10 @@
 				<div class="centered">
 					<h3><b>Email:</b> &nbsp; &nbsp; jameshe2018@u.northwestern.edu</h3>
 					<h3><b>Mobile:</b> &nbsp; &nbsp; (630) 210-2930</h3>
-                    <h3><a href="assets/Resume_James_He.pdf" download><i class="fa fa-download"></i>&nbsp; Download My Resume</a></h3>
+                    <!--<h3><a href="assets/Resume_James_He.pdf" download><i class="fa fa-download"></i>&nbsp; Download My Resume</a></h3>-->
                     <br>
                     <br>
-                    <ul class="list-inline banner-social-buttons">
+                    <!--<ul class="list-inline banner-social-buttons">
                         <li>
                             <a href="https://www.linkedin.com/pub/james-he/a6/55b/829" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">LinkedIn</span></a>
                         </li>
@@ -384,7 +410,7 @@
                         <li>
                             <a href="https://github.com/firesage123" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                         </li>
-                    </ul>
+                    </ul>-->
 				</div><!-- col -->
 			</div><!-- row -->
 		</div><!-- container -->
